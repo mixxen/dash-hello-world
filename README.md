@@ -1,5 +1,11 @@
 **Dash Hello World**
 
+To compile with PyInstaller:
+
+```
+pyinstaller --onefile --additional-hooks-dir=. .\app.py
+```
+
 This app is a simple example of the capabilities of Dash developed by [Plotly](https://plot.ly/) and acts as an intro to overall Python framework. Further examples can be found at [dash/gallery/](plot.ly/dash/gallery).
 
 Dash abstracts away all of the technologies and protocols required to build an interactive web-based application and is a simple and effective way to bind a user interface around your Python code.
